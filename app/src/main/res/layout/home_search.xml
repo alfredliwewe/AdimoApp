@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="20dp">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/home_search"
+            android:paddingRight="8dp"
+            android:layout_weight=".7">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:src="@drawable/search"
+                    android:onClick="loadSearch"
+                    android:layout_width="35dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:onClick="loadSearch"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:text="Search products.." />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".15"
+            android:paddingTop="3dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <com.google.android.material.imageview.ShapeableImageView
+                style="@style/rounded_50"
+                android:src="@drawable/pro_file"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/profile_home"
+                app:shapeAppearance="@style/rounded_50"
+                android:onClick="loadProfile" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".15"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:gravity="center">
+            <ImageView
+                android:src="@drawable/custom_cart"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:onClick="loadCart" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/inappropriate" android:title="Flag as in appropriate" />
+    <item android:id="@+id/spam" android:title="Flag as spam" />
+    <item android:id="@+id/vote" android:title="Vote up" />
+</menu>

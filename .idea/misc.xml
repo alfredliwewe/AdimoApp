@@ -1,0 +1,45 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/btn_danger.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/btn_dark.xml" value="0.124" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/btn_outline.xml" value="0.124" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/btn_outline_blue.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/btn_outline_sm.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/home_search.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/ic_favorite_border.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/input.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/progress_bar.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/progress_rail.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/drawable/rounded_corner.xml" value="0.2145" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/font/word.xml" value="0.3972222222222222" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/account.xml" value="0.33" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/activity_main.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/activity_scan.xml" value="0.2" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/activity_settings.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/badge_layout.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/blank.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/cart_qty.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/change_photo.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/comm_profile.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/first.xml" value="0.33" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/home_search.xml" value="0.33" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/login.xml" value="0.264" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/profile.xml" value="0.33" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/ratings.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/register.xml" value="0.264" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/scan.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/layout/search.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/menu/finish.xml" value="2.5964285714285715" />
+        <entry key="..\:/Users/Chindozwa/AndroidStudioProjects/AdimoShopping/app/src/main/res/menu/search.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="rounded">
+        <item name="cornerSize">3dp</item>
+    </style>
+
+    <style name="rounded_large">
+        <item name="cornerSize">7dp</item>
+    </style>
+
+    <style name="rounded_home">
+        <item name="cornerSize">14dp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">3dp</item>
+    </style>
+
+    <style name="rounded_50">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="TabTextAppearance">
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>

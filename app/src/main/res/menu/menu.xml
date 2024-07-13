@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/search"
+        android:icon="@drawable/search_white"
+        android:showAsAction="ifRoom"
+        android:title="Search"/>
+
+    <item 
+        android:id="@+id/cart"
+        android:icon="@drawable/cart_white"
+        android:showAsAction="ifRoom"
+        android:title="Cart"/>
+
+    <item android:id="@+id/refresh" android:icon="@drawable/share" android:title="Share"/>
+    <item android:id="@+id/profile" android:icon="@drawable/add" android:title="Add to wishlist"/>
+    <item android:id="@+id/logout" android:icon="@drawable/flag" android:title="Flag as inappropriate"/>
+</menu>

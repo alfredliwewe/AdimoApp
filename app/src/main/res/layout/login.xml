@@ -1,0 +1,72 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:id="@+id/main">
+            <ImageView
+                android:src="@drawable/adimo"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email or phone"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/secondary"
+                android:background="@drawable/input"
+                android:id="@+id/email" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/secondary"
+                android:hint="Password"
+                android:background="@drawable/input"
+                android:inputType="textPassword" />
+
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginBottom="25dp" android:text="Forgot Password??" android:textColor="#2196F3" />
+
+            <com.google.android.material.button.MaterialButton android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginBottom="25dp" android:text="Login" android:onClick="login" android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="New User? Create account"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/btn_outline"
+                android:textAllCaps="false"
+                android:onClick="loadRegister"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="@string/copyright" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

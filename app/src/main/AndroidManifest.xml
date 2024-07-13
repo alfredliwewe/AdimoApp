@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rodz.adimoshopping">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/alogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdimoShopping"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Settings"
+            android:label="Settings"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralPurpose"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity
+            android:name=".ScanActivity"
+            android:label="Scan Code" />
+        <activity
+            android:name=".Category"
+            android:label="Category" />
+        <activity
+            android:name=".Details"
+            android:label="Details" />
+        <activity
+            android:name=".Cart"
+            android:label="Shopping Cart" />
+        <activity
+            android:name=".Account"
+            android:label="Your Account" />
+        <activity
+            android:name=".Search"
+            android:label="Search" />
+        <activity
+            android:name=".WebPayment"
+            android:label="Payments" />
+        <activity
+            android:name=".Purchases"
+            android:label="Purchases" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".Comment"
+            android:label="Comment" />
+    </application>
+
+</manifest>

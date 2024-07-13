@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="rounded_home">
+        <item name="cornerSize">14dp</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+</resources>
